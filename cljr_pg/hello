@@ -1,0 +1,6 @@
+#!/data/data/com.termux/files/usr/bin/env bb
+
+(require '[clojure.string :as str])
+(prn (str/join " " ["Hello" "inner" "world!"]))
+
+(prn (str "Hello from " *ns* ", inner world!"))
